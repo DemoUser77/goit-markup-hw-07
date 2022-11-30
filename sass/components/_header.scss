@@ -1,0 +1,50 @@
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+
+.header {
+    border-bottom: 1px solid #ececec;
+}
+
+.header__info {
+    margin-left: auto;
+}
+
+.header__email {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--color-port-subtitle-p);
+    text-decoration: none;
+
+    transition: color var(--transform-animation);
+}
+
+.header__tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+
+    margin-left: 50px;
+
+    color: var(--color-port-subtitle-p);
+    text-decoration: none;
+    transition: color var(--transform-animation);
+}
+
+.header__icon {
+    fill: currentColor;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.header__email:hover,
+.header__email:focus,
+.header__tel:hover,
+.header__tel:focus {
+    color: var(--color-main-button-footer);
+}

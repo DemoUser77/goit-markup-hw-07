@@ -12,14 +12,14 @@
 
     transition: color var(--transform-animation),
         border-color var(--transform-animation);
+
+    &:hover,
+    &:focus {
+        border-color: #2196f3;
+        color: #2196f3;
+         }
 }
 
 .client-icon {
     fill: currentColor;
-}
-
-.client-cont:hover,
-.client-cont:focus {
-    border-color: #2196f3;
-    color: #2196f3;
 }

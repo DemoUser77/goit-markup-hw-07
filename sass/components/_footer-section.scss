@@ -1,4 +1,4 @@
-.footer__section {
+.footer-section {
     background: #2f303a;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -19,7 +19,7 @@
     margin-bottom: 20px;
 }
 
-.footer__logo__color {
+.footer__color {
     color: #ffffff;
 }
 
@@ -98,17 +98,18 @@
 
     transition: background-color var(--transform-animation),
         color var(--transform-animation);
+
+    &:hover,
+    &:focus {
+        background-color: #2196f3;
+        color: #ffffff;
+         }
 }
 
 .footer__icon {
     fill: currentColor;
 }
 
-.footer__contacts:hover,
-.footer__contacts:focus {
-    background-color: #2196f3;
-    color: #ffffff;
-}
 
 .footer__subscription {
     fill: currentColor;
@@ -116,7 +117,7 @@
     margin-left: 93px;
 }
 
-.footer__input__button {
+.footer__input {
     display: flex;
 }
 
@@ -160,8 +161,8 @@
     fill: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     transition: outline var(--transform-animation);
-}
 
-.footer__email:hover {
-    outline: 1px solid var(--color-main-button-footer);
+    &:hover {
+      outline: 1px solid var(--color-main-button-footer);
+    }
 }
